@@ -439,7 +439,9 @@ function Game_Avatar() {
 	Game_Avatar.prototype.initialize = function(eventData, onlineData) {
 		var mapId = $gameMap.mapId();
 		var eventId = $gameMap.getEventIdSequence ? $gameMap.getEventIdSequence() : $gameMap._events.length;
-
+		
+        $gameVariables.setValue(13,$gameMap._events.length);
+        
 		['A', 'B', 'C', 'D'].forEach(function(switchId) {
 			var key = [mapId, eventId, switchId];
 			$gameSelfSwitches.setValue(key, false);

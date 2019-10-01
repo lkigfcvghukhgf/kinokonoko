@@ -105,7 +105,7 @@
         // 常に演奏される足音
         always     : {
             interval: 1,
-            walk1   : {name: 'se_maoudamashii_se_footstep02', volume: 90, pitch: 100, pan: 0},
+            walk1   : {name: 'se_maoudamashii_se_footstep02', volume: 15, pitch: 100, pan: 0},
             walk2   : {name: '', volume: 90, pitch: 100, pan: 0},
             dash1   : {name: 'se_maoudamashii_se_footstep02', volume: 90, pitch: 100, pan: 0},
             dash2   : {name: '', volume: 90, pitch: 100, pan: 0},
